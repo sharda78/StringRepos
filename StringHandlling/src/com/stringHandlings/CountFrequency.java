@@ -6,15 +6,16 @@ public class CountFrequency {
 	
 	public static void countfreqn(String s4)
 	{
-		int i, len = s4.length(),count = 0;
+		int i, len = s4.length();
 		char ch3,ch4;
 		String s5 = "hello";
 		for(int j = 0; j < len ; j++)
 		{
 		ch3 = s5.charAt(j);
-		
+		int count=0;
 		for(i = 0; i < len; i++)
 		{
+		
 			ch4 = s5.charAt(i);
 			if(ch3 ==ch4)
 			{
@@ -23,11 +24,13 @@ public class CountFrequency {
 		}
 		System.out.println(ch3 + " = " + count);
 		}
+		
+		
 	}
 
 	public static void main(String[] args) {
 		String s1 = "india is my country";
-		String s3 = "hello";
+		//String s3 = "hello";
 		int i, len = s1.length(),count = 0;
 		char ch1,ch2;
 		Scanner sc = new Scanner(System.in);
@@ -44,7 +47,7 @@ public class CountFrequency {
 		}
 		System.out.println(ch1 + " = " + count);
 		
-		countfreqn(s3);
+		//countfreqn(s3);
 		
 		
 	}

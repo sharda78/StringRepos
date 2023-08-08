@@ -3,7 +3,7 @@ package com.stringHandlings;
 public class CountSpaces {
 	public static void count(String s)
 	{
-char ch1 = ' ',ch2;
+		char ch1 = ' ',ch2;
 		
 		int cnt = 0;
 		for(int i= 0; i < s.length(); i++)
