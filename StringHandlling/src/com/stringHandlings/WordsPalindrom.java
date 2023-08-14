@@ -1,5 +1,5 @@
 package com.stringHandlings;
-
+//24.	Write a Java program to reverse order of words in a given string with palindrome
 import java.util.Scanner;
 
 public class WordsPalindrom {

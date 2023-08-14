@@ -12,8 +12,13 @@ public class ConcatMethod {
 		s1 = s1.concat(" to pune"); //heap -welcome to pune(ref by s1) | SCP to pune
 		System.out.println(s1); // welcome to pune
 
+		System.out.println("\n--------------------------------");
 		
-		
+	  	
+
+
+
+
 	}
 
 }
